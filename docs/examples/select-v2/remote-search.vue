@@ -90,6 +90,7 @@ const remoteMethod = (query: string) => {
         return item.label.toLowerCase().includes(query.toLowerCase())
       })
     }, 200)
+    console.log(value)
   } else {
     options.value = []
   }
